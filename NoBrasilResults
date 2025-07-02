@@ -1,3 +1,8 @@
+! name: No Br
+! description: No Br
+! public: True
+! author: Buenovon
+
 {
   "title": "Excluir Brasil",
   "description": "Remove todos os domínios brasileiros (.br e principais sites do Brasil) dos resultados de pesquisa.",
