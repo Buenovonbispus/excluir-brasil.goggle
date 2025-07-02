@@ -1,23 +1,10 @@
-! name: No Br
-! description: No Br
-! public: True
-! author: Buenovon
-
 {
-  "title": "Excluir Brasil",
-  "description": "Remove todos os domínios brasileiros (.br e principais sites do Brasil) dos resultados de pesquisa.",
-  "include_domains": [],
-  "exclude_domains": [
-    ".br",
-    "globo.com",
-    "uol.com.br",
-    "terra.com.br",
-    "folha.uol.com.br",
-    "g1.globo.com",
-    "estadao.com.br",
-    "r7.com",
-    "abril.com.br",
-    "ig.com.br",
-    "correio24horas.com.br"
+  "name": "Filter Brasil Sites",
+  "description": "Remove resultados de sites brasileiros do Brave Search",
+  "public": false,
+  "author": "Me",
+  "rules": [
+    "-site:.br",
+    "-site:.com.br"
   ]
 }
